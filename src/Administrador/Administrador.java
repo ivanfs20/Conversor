@@ -5,7 +5,7 @@ import javax.swing.JOptionPane;
 
 public class Administrador {
     
-    ImageIcon image = new ImageIcon("C:\\Users\\carlo\\OneDrive\\Documents\\NetBeansProjects\\Conversor_1\\src\\Imagenes\\MenuPrincipal.png");
+    ImageIcon image = new ImageIcon("C:\\Users\\carlo\\OneDrive\\Documents\\NetBeansProjects\\Conversor_Proyecto\\src\\Imagenes\\MenuPrincipal.png");
     
     public void menu1() {
         

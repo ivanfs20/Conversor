@@ -16,7 +16,7 @@ public class Menu {
 
     public void conversorMonedas(double cantidad) {
         eleccion = JOptionPane.showInputDialog(null, "ELIJE A QUE CONVERSION DE MONEDA QUIERES PASAR??",
-                "CONVERSION DE MONEDA", 0, new ImageIcon("C:\\Users\\carlo\\OneDrive\\Documents\\NetBeansProjects\\Conversor_1\\src\\Imagenes\\Moneda.png"),
+                "CONVERSION DE MONEDA", 0, new ImageIcon("C:\\Users\\carlo\\OneDrive\\Documents\\NetBeansProjects\\Conversor_Proyecto\\src\\Imagenes\\Moneda.png"),
                 new Object[]{"MXN-USD", "MXN-EUR", "MXN-L", "MXN-YEN", "MXN-Won sul-coreano",
                     "USD-MXN", "EUR-MXN", "L-MXN", "YEN-MXN", "Won sul-coreano-MXN"},
                 "").toString();
@@ -56,7 +56,7 @@ public class Menu {
 
     public void conversorTemperatura(double cantidad) {
         eleccion = JOptionPane.showInputDialog(null, "ELIJE A QUE CONVERSION DE TEMPERATURA QUIERES PASAR??",
-                "CONVERSION DE TEMPERATURA", 0, new ImageIcon("C:\\Users\\carlo\\OneDrive\\Documents\\NetBeansProjects\\Conversor_1\\src\\Imagenes\\Temperatura.png"),
+                "CONVERSION DE TEMPERATURA", 0, new ImageIcon("C:\\Users\\carlo\\OneDrive\\Documents\\NetBeansProjects\\Conversor_Proyecto\\src\\Imagenes\\Temperatura.png"),
                 new Object[]{"Celsius-Farenheit", "Farenheit-Celsius", "Kelvin-Celsius", "Celsius-Kelvin", "Farenheit-Kelvin"}, "").toString();
         switch (eleccion) {
             case "Celsius-Farenheit":
